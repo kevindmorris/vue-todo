@@ -7,5 +7,3 @@ I build this application to begin exploring the Vue framework. Really only havin
 I followed along with a YouTube tutorial, modifying parts along the way. Links below:  
 [Video](https://www.youtube.com/watch?v=KTFH4P8unUQ&t=621s)  
 [GitHub](https://github.com/johnkomarnicki/vue-3-crash-course/tree/main)
-
-![Image](./image.png)
