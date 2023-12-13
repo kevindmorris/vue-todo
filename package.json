@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "private": false,
   "type": "module",
+  "homepage": "https://kevindmorris.github.io/vue-todo",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "vue": "^3.3.10",
@@ -15,6 +18,7 @@
   "devDependencies": {
     "@iconify/vue": "^4.1.1",
     "@vitejs/plugin-vue": "^4.5.1",
+    "gh-pages": "^6.1.0",
     "sass": "^1.69.5",
     "uid": "^2.0.2",
     "vite": "^5.0.5"
